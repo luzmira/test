@@ -9,6 +9,6 @@ entries:
     name: datascientest
     type: application
     urls:
-    - https://github.com/luzmira/test.git/datascientest-0.1.0.tgz
+    - https://github.com/luzmira/test/blob/bb9a89cf6bbec56882346324e336eda8749f2867/datascientest-0.1.0.tgz
     version: 0.1.0
 generated: "2023-09-02T16:56:43.044572449Z"
