@@ -2,18 +2,18 @@ apiVersion: apps/v1
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Release.Name }}-datascientest
+  name: {{ .Release.Name }}-didi
   labels:
-    app: {{ .Release.Name }}-datascientest
+    app: {{ .Release.Name }}-didi
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: {{ .Release.Name }}-datascientest
+      app: {{ .Release.Name }}-didi
   template:
     metadata:
       labels:
-        app: {{ .Release.Name }}-datascientest
+        app: {{ .Release.Name }}-didi
     spec:
       containers:
         - name:     {{ .Release.Name }}
